@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+#container-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+#sidebar{
+    width: 15%;
+    padding: 20px;
+    border: 1px solid yellow;
+}
+
+#category > div{
+    display: flex; 
+}
+
+#category > div img{
+    width: 10%;
+    height: 10%;
+    margin: 15px 15px 0px 15px;
+}
+
+#category > div span{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#playlist{
+    margin-top: 30px;
+}
+
+#playlist > div{
+    display: flex; 
+}
+
+#playlist > div > img:nth-child(1),#install > img{
+    width: 10%;
+    height: 10%;
+    margin: 15px 15px 0px 15px;
+}
+
+#playlist > div span{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.create-playlist{
+    position: relative;
+}
+
+#plus{
+    position: absolute;
+    left: 42px;
+    top: 215px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+
+#heart{
+    position: absolute;
+    width: 10px;
+    left: 42px;
+    top: 274px;
+    
+}
+
+#favs{
+    margin-top: 30px;
+}
+
+#favs p{
+    margin: 15px 15px 0px 15px;
+    font-size: 16px;
+}
+
+#install{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+#main{
+    width: 85%;
+    height: 100vh;
+    border: 1px solid green;
+}
